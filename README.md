@@ -13,9 +13,9 @@ Packer template used to build vagrant box with
 - VMware Workstation installed
 
 ## Instructions
-`git clone https://github.com/berchev/packer-vagrant-vault-prod.git`
-`cd packer-vagrant-vault-prod`
-`packer build vault64.json`
+- `git clone https://github.com/berchev/packer-vagrant-vault-prod.git`
+- `cd packer-vagrant-vault-prod`
+- `packer build vault64.json`
 
 ## Kitchen test results
 ```
