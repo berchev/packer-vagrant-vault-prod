@@ -1,0 +1,22 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: shell
+
+platforms:
+  - name: vault64-vbox 
+    driver:
+      box: vault64-vbox
+      provider: virtualbox
+  - name: vault64-vmware
+    driver:
+      box: vault64-vmware
+      provider: vmware_desktop
+
+verifier:
+  name: inspec
+
+suites:
+  - name: default
